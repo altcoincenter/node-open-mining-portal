@@ -1,9 +1,14 @@
+Altcoin.Center's fork of the amazing
 # NOMP ![NOMP Logo](http://zone117x.github.io/node-open-mining-portal/logo.svg "NOMP Logo")
 #### Node Open Mining Portal
 
 This portal is an extremely efficient, highly scalable, all-in-one, easy to setup cryptocurrency mining pool written
 entirely in Node.js. It contains a stratum poolserver; reward/payment/share processor; and a (*not yet completed*)
 responsive user-friendly front-end website featuring mining instructions, in-depth live statistics, and an admin center.
+
+Altcoin.Center will be adding some basic necessities such as the possibility to choose Redis database number, removing the need to run several instances of Redis in order to be able to run several instances of NOMP on the same hardware.
+
+We'll make a pull request upstream when something worth pulling is available.
 
 #### Production Usage Notice
 This is beta software. All of the following are things that can change and break an existing NOMP setup: functionality of any feature, structure of configuration files and structure of redis data. If you use this software in production then *DO NOT* pull new code straight into production usage because it can and often will break your setup and require you to tweak things like config files or redis data.
